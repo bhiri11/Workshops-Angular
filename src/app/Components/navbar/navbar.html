@@ -1,0 +1,5 @@
+<nav class="navbar">
+@for (elt of links(); track elt.name) {
+    <a [href]="elt.path">{{ elt.name }}</a>
+  }
+</nav>
